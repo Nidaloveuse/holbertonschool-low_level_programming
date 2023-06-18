@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 * main - main fonction
-*return: O if ok else other
+*return: 0 if ok else other
 */
 int main (void)
 {
