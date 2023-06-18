@@ -3,7 +3,7 @@
 * main - main fonction
 *return: 0 if ok else other
 */
-int main()
+int main(void)
 
 {
 puts("\"Programming is like building a multilingual puzzle");
