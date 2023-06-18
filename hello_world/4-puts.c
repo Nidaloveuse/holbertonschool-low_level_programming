@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 * main - main fonction
-*return: 0Always 0 (success)
+*return: 0 if ok else other
 */
 int main()
 
