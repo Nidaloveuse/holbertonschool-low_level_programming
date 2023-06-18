@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - main fonction
+* main - print a string
 *return: 0 if ok else other
 */
 int main(void)
