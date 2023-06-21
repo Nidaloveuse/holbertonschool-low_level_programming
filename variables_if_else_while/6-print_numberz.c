@@ -7,8 +7,9 @@
 * Return: Always 0.                                                                                                                                                                                                
 */
 
-int main() {
-  char number;
+int main(void)
+{
+  int number;
 
   /* Imprime les nombres dans l'ordre */
   for (number = '0'; number <= '9'; number++) {
