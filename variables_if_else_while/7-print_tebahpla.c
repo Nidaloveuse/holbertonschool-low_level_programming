@@ -11,7 +11,7 @@ int main() {
     char letter;
 
     /* Imprimer l'alphabet dans l'ordre décroissant */
-    for (letter = 'z'; letter <= 'a'; letter++) {
+    for (letter = 'z'; letter >= 'a'; letter--) {
         putchar(letter);
     }
     /* Imprimer une nouvelle ligne */
