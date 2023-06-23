@@ -8,16 +8,15 @@
 */
 int main(void)
 {
-  char number;
+	char number;
 
-  /* Imprime moi les chiffres dans l'ordre numérique */
-  for (number = '0'; number <= '9'; number++)
-  {
-    putchar(number);
-  }
+	/* Imprime moi les chiffres dans l'ordre numérique */
+	for (number = '0'; number <= '9'; number++)
+	{
+		putchar(number);
+	}
 
-  /* Imprime moi une nouvelle ligne */
-  putchar('\n');
-
-  return (0);
+	/* Imprime moi une nouvelle ligne */
+	putchar('\n');
+	return (0);
 }

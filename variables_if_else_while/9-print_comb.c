@@ -9,20 +9,18 @@
 
 int main(void)
 {
-  int number;
+	int number;
 
-  /* imprime les chiffres dans l'ordres numérique */
-  for (number = 48 ; number < 58 ; number++)
-  {
-    putchar(number);
-    if (number != 57)
-    {
-      putchar(',');
-      putchar(' ');
-    }
-  }  
-  putchar('\n');
-
-  return (0);
-  
+	/* imprime les chiffres dans l'ordres numérique */
+	for (number = 48 ; number < 58 ; number++)
+	{
+		putchar(number);
+		if (number != 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
+	putchar('\n');
+	return (0);
 }

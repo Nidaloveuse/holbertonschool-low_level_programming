@@ -7,15 +7,17 @@
 * Return: Always 0.
 */
 
-int main() {
-    char letter;
+int main(void)
+{
+	char letter;
 
-    /* Imprimer l'alphabet dans l'ordre décroissant */
-    for (letter = 'z'; letter >= 'a'; letter--) {
-        putchar(letter);
-    }
-    /* Imprimer une nouvelle ligne */
-    putchar('\n');
+	/* Imprimer l'alphabet dans l'ordre décroissant */
+	for (letter = 'z'; letter >= 'a'; letter--)
+	{
+		putchar(letter);
+	}
+	/* Imprimer une nouvelle ligne */
+	putchar('\n');
 
-    return 0;
+	return (0);
 }

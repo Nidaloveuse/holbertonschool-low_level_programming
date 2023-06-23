@@ -8,15 +8,15 @@
 */
 int main(void)
 {
-  char letter;
+	char letter;
 
-  /* imprime l'alphabet en lettre minuscule */
-      for (letter = 'a'; letter <= 'z'; letter++)
-    {
-      if (letter != 'e' && letter != 'q')
-	putchar (letter);
-    }
-  /* imprime une nouvelle ligne */
-      putchar ('\n');
-      return (0);
+	/* imprime l'alphabet en lettre minuscule */
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+		if (letter != 'e' && letter != 'q')
+			putchar(letter);
+	}
+	/* imprime une nouvelle ligne */
+	putchar ('\n');
+	return (0);
 }
